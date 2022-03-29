@@ -12,6 +12,6 @@ cd .vuepress/dist
 git init
 git add -A
 git commit -m "deploy with vuepress script"
-git push -f https://github.com/hotsun1508/my-TIL.git main:gh-pages
+git push -f https://github.com/hotsun1508/my-TIL.git master:gh-pages
 
 cd -

@@ -1,5 +1,5 @@
 ---
-title: Welcom to my TIL :)
+title: Welcome to my TIL :)
 ---
 
 
