@@ -94,6 +94,7 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     'reading-progress',
+    ["sitemap", { hostname: "https://Username.github.io/TIL" }],
     [
       "@vuepress/pwa",
       {

@@ -17,7 +17,8 @@
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-reading-progress": "^1.0.10"
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
     "vuepress-plugin-code-copy": "^1.0.6"
