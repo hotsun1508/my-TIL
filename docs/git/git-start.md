@@ -22,3 +22,7 @@ print(hello)
 ### shift + enter
 
 ### vsc에서 뭐하기 전에 pull 먼저 땡기자!!
+
+참고:
+
+[https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5](https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5 "https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5")
