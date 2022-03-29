@@ -78,6 +78,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'reading-progress',
     [
       "@vuepress/pwa",
       {
@@ -88,5 +89,15 @@ module.exports = {
         },
       },
     ],
+    [
+      'vuepress-plugin-code-copy',
+      {
+        backgroundColor: '#42b883',
+        color: '#42b883',
+        backgroundTransition: true,
+        successText: 'copied!',
+        staticIcon: false,
+      },
+    ],    
   ]
 }
