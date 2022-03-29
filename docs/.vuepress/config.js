@@ -17,7 +17,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#fc94af' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
@@ -29,6 +29,21 @@ module.exports = {
         sizes: "192x192",
         href: "images/maskable_icon_x192.png",
       },
+    ],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-T05FCHQC7K",
+        // GA에서 발급받은 코드
+      },
+    ],
+    [
+      "script",
+      {},
+      [
+        "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-T05FCHQC7K');",
+      ],
     ],
   ],
 
