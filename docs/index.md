@@ -11,5 +11,5 @@ features:
   details: Archive
 - title: All About ME
   details: TMI
-footer: Made by  with hotsun1508❤️
+footer: Made by hotsun1508❤️
 ---
