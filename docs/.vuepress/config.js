@@ -19,7 +19,17 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        sizes: "192x192",
+        href: "images/maskable_icon_x192.png",
+      },
+    ],
   ],
 
   /**
