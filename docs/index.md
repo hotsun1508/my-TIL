@@ -6,10 +6,10 @@ actionText: Explore →
 actionLink: /guide/
 features:
 - title: Today I Learned 
-  details: Feature 1 Description
+  details: trying to be diligent 
 - title: Useful Information
-  details: Feature 2 Description
+  details: Archive
 - title: All About ME
-  details: Feature 3 Description
+  details: TMI
 footer: Made by  with hotsun1508❤️
 ---
