@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Algorithm
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/git
   label: git
   create: documents
