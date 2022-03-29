@@ -20,3 +20,5 @@ print(hello)
 ```
 
 ### shift + enter
+
+### vsc에서 뭐하기 전에 pull 먼저 땡기자!!
