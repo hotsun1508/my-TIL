@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git 기초 | Sun Ah&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="shortcut icon" href="/my-TIL/favicon.ico">
+    <link rel="manifest" href="/my-TIL/manifest.json">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/maskable_icon_x192.png">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-T05FCHQC7K"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-T05FCHQC7K');</script>
+    <meta name="description" content="">
+    <meta name="theme-color" content="#f88379">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/my-TIL/assets/css/0.styles.b00e95d5.css" as="style"><link rel="preload" href="/my-TIL/assets/js/app.e1862e68.js" as="script"><link rel="preload" href="/my-TIL/assets/js/2.4a947834.js" as="script"><link rel="preload" href="/my-TIL/assets/js/13.8b52201a.js" as="script"><link rel="preload" href="/my-TIL/assets/js/3.4a56f623.js" as="script"><link rel="prefetch" href="/my-TIL/assets/js/10.6309cb6b.js"><link rel="prefetch" href="/my-TIL/assets/js/11.5915d0ab.js"><link rel="prefetch" href="/my-TIL/assets/js/12.fceb965a.js"><link rel="prefetch" href="/my-TIL/assets/js/14.846d5e35.js"><link rel="prefetch" href="/my-TIL/assets/js/15.ac4cf0a4.js"><link rel="prefetch" href="/my-TIL/assets/js/16.7cbe8001.js"><link rel="prefetch" href="/my-TIL/assets/js/17.2a234cee.js"><link rel="prefetch" href="/my-TIL/assets/js/18.ae9de322.js"><link rel="prefetch" href="/my-TIL/assets/js/4.f47c04d3.js"><link rel="prefetch" href="/my-TIL/assets/js/5.38ad60d4.js"><link rel="prefetch" href="/my-TIL/assets/js/6.7872b8df.js"><link rel="prefetch" href="/my-TIL/assets/js/7.8f186fdf.js"><link rel="prefetch" href="/my-TIL/assets/js/8.b788a75b.js"><link rel="prefetch" href="/my-TIL/assets/js/9.0497973d.js">
+    <link rel="stylesheet" href="/my-TIL/assets/css/0.styles.b00e95d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/my-TIL/" class="home-link router-link-active"><!----> <span class="site-name">Sun Ah's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/my-TIL/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/my-TIL/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/my-TIL/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/my-TIL/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/my-TIL/intro.html" class="sidebar-link">Welcome to my TIL :)</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Git</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/my-TIL/git/git-start.html" aria-current="page" class="active sidebar-link">Git 기초</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/my-TIL/git/git-start.html#git" class="sidebar-link">Git</a></li><li class="sidebar-sub-header"><a href="/my-TIL/git/git-start.html#끝" class="sidebar-link">끝.</a></li><li class="sidebar-sub-header"><a href="/my-TIL/git/git-start.html#마크다운으로-보려면-raw-editor-눌러" class="sidebar-link">마크다운으로 보려면 Raw editor 눌러</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Django</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="git"><a href="#git" class="header-anchor">#</a> Git</h2> <p>깃에 대한 모든 것</p> <blockquote><p>경준님이 알려준 github blog 만들기 및 배포</p> <ul><li>forestry로 바로 작성하는 것도 배웠지롱 하하</li></ul></blockquote> <h2 id="끝"><a href="#끝" class="header-anchor">#</a> 끝.</h2> <h2 id="마크다운으로-보려면-raw-editor-눌러"><a href="#마크다운으로-보려면-raw-editor-눌러" class="header-anchor">#</a> 마크다운으로 보려면 Raw editor 눌러</h2> <div class="language-python extra-class"><pre class="language-python"><code>hello <span class="token operator">=</span> <span class="token string">&quot;hi&quot;</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>hello<span class="token punctuation">)</span>
+</code></pre></div><h3 id="shift-enter"><a href="#shift-enter" class="header-anchor">#</a> shift + enter</h3> <h3 id="vsc에서-뭐하기-전에-pull-먼저-땡기자"><a href="#vsc에서-뭐하기-전에-pull-먼저-땡기자" class="header-anchor">#</a> vsc에서 뭐하기 전에 pull 먼저 땡기자!!</h3> <p>참고:</p> <p><a href="https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5" title="https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5" target="_blank" rel="noopener noreferrer">https://parkjju.github.io/vue-TIL/git/GA.html#github-action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/my-TIL/intro.html" class="prev">
+        Welcome to my TIL :)
+      </a></span> <span class="next"><a href="/my-TIL/django/django-start.html">
+        Django로 백엔드 시작하기
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/my-TIL/assets/js/app.e1862e68.js" defer></script><script src="/my-TIL/assets/js/2.4a947834.js" defer></script><script src="/my-TIL/assets/js/13.8b52201a.js" defer></script><script src="/my-TIL/assets/js/3.4a56f623.js" defer></script>
+  </body>
+</html>
